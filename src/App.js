@@ -37,7 +37,7 @@ function useInView(options = {}) {
     );
     obs.observe(el);
     return () => obs.disconnect();
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
   return [ref, isInView];
 }
 
