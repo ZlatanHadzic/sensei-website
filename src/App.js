@@ -12,7 +12,6 @@ import {
   Phone,
   Mail,
   Instagram,
-  Facebook,
   ArrowRight,
   Shield,
   Swords,
@@ -23,6 +22,7 @@ import {
   Send,
   ChevronDown,
   Award,
+  
 } from "lucide-react";
 
 /* ─── Intersection Observer hook ─── */
@@ -812,7 +812,7 @@ export default function KarateKlubSensei() {
 
               <div className="flex gap-3 pt-2">
                 <a href="#facebook" className="w-12 h-12 rounded-xl bg-neutral-900 hover:bg-red-600 flex items-center justify-center transition-colors duration-300">
-                  <Facebook className="w-5 h-5 text-white" />
+                  <svg className="w-5 h-5 text-white fill-current" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
                 </a>
                 <a href="#instagram" className="w-12 h-12 rounded-xl bg-neutral-900 hover:bg-red-600 flex items-center justify-center transition-colors duration-300">
                   <Instagram className="w-5 h-5 text-white" />
@@ -947,7 +947,7 @@ export default function KarateKlubSensei() {
             <p className="text-white/20 text-sm">© 2025 Karate Klub Sensei. Sva prava zadržana.</p>
             <div className="flex gap-3">
               <a href="#facebook" className="w-9 h-9 rounded-lg bg-white/5 hover:bg-red-600 flex items-center justify-center transition-colors duration-300">
-                <Facebook className="w-4 h-4 text-white" />
+                <svg className="w-4 h-4 text-white fill-current" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
               </a>
               <a href="#instagram" className="w-9 h-9 rounded-lg bg-white/5 hover:bg-red-600 flex items-center justify-center transition-colors duration-300">
                 <Instagram className="w-4 h-4 text-white" />
